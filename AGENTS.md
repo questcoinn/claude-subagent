@@ -26,7 +26,7 @@ Claude Code 설정 산출물(서브에이전트 정의, 스킬)을 모아두는 
 
 `agents/root-cause-analyzer.md`는 이 컨벤션을 그대로 따른 예시다: 읽기 전용(`Read, Grep, Glob, Bash`, `Edit`/`Write` 없음) 결함 위치 특정 서브에이전트로, 번호가 매겨진 조사 순서와 고정된 보고 구조(이슈 요약 → `file:line` 근거를 곁들인 랭킹된 근본 원인 → 재현 결과 → 관련 이력 → 실제 수정은 하지 않고 방향만 제안)를 갖고 있다.
 
-<!-- codebase-context-engineer:begin (last_analyzed_commit: 434a029cc7b6797bd49763a71ea85c3711e050ac, last_analyzed_date: 2026-09-11) -->
+<!-- codebase-context-engineer:begin (last_analyzed_commit: c2db2f22effe184454d15ec0e89b920a28b101aa, last_analyzed_date: 2026-09-11) -->
 ## AI를 위한 프로젝트 규칙
 
 ### 정본과 설치본
@@ -57,7 +57,7 @@ Claude Code 설정 산출물(서브에이전트 정의, 스킬)을 모아두는 
 ### 작성 언어
 
 - 문서·스펙 본문은 한국어로 쓴다. 기술 식별자(frontmatter 키, 도구 이름, CLI 플래그, 경로)는 원문 그대로 둔다. 스크립트의 사용자 출력 메시지·help 텍스트도 한국어다.
-- 커밋 메시지는 영어 소문자로 짧게 쓴다(예: `add license and readme file`). 커밋 3건 기준이라 확립된 규칙이라기보다 관측된 패턴이다.
+- 커밋 메시지는 영어 소문자로 짧게 쓴다(예: `add license and readme file`, `add install scripts`). 커밋 4건 모두 이 형태지만, 표본이 적어 확립된 규칙이라기보다 관측된 패턴이다.
 
 ### 인덱스 사용법
 
